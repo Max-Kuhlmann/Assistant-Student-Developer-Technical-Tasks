@@ -11,8 +11,10 @@ def test_group_by_category():
                         {},
                         {"name": "Banana", "category": "Fruit"}
                     ]
+    testing_list_3 = []
 
     print(group_by_category(testing_list_1))
     print(group_by_category(testing_list_2))
+    print(group_by_category(testing_list_3))
 
 test_group_by_category()
